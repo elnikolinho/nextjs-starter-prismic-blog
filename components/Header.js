@@ -70,6 +70,7 @@ export const Header = ({
                 <PrismicLink field={item.link}>
                   <PrismicText field={item.label} />
                 </PrismicLink>
+                <p>test</p>
               </NavItem>
             ))}
           </ul>
