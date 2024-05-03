@@ -58,7 +58,8 @@ export const Header = ({
   return (
     <Bounded as="header">
       <div className="grid grid-cols-1 justify-items-center gap-20">
-        <nav>
+        {/* Navigation */}
+        {/* <nav>
           <ul className="flex flex-wrap justify-center gap-10">
             <NavItem>
               <PrismicLink href="/">
@@ -74,7 +75,8 @@ export const Header = ({
               </NavItem>
             ))}
           </ul>
-        </nav>
+        </nav> */}
+        {/* Profile */}
         {withProfile && (
           <Profile
             name={settings.data.name}

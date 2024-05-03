@@ -91,9 +91,11 @@ const Index = ({ articles, navigation, settings }) => {
       </Head>
       <Bounded size="widest">
         <ul className="grid grid-cols-1 gap-16">
-          {articles.map((article) => (
+          {/* Articles */}
+          {/* {articles.map((article) => (
             <Article key={article.id} article={article} />
-          ))}
+          ))} */}
+          {/* Chuck audio in here? */}
         </ul>
       </Bounded>
     </Layout>

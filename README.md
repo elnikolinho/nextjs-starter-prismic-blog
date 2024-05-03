@@ -63,3 +63,7 @@ limitations under the License.
 [starter-docs]: ./docs/README.md
 [nextjs]: https://nextjs.org/
 [live-demo]: https://nextjs-starter-prismic-blog.vercel.app/
+
+
+prismic localhost:9999
+preview localhost:3000
